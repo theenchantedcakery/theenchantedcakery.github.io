@@ -1,0 +1,81 @@
+
+h1 {
+	color: #691D82;
+	font-family: 'Playfair Display', serif;
+	padding: 0;
+	margin: 0;
+    display: none;
+}
+
+.logo img {
+    width: 50%;
+    height: auto;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+
+}
+
+.content, .container{
+	background: #fff;
+	width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.content {
+    padding: 2em 0;
+}
+
+.pure-button{
+    background: none;
+    border: 1px solid #691D82;
+    color: #691D82;
+    font-family: 'Lato', sans-serif;
+}
+
+.pure-button:hover{
+    background: #fff;
+    border: 1px solid #9874CB;
+    color: #9874CB;
+}
+
+.pure-img {
+    width: 99%;
+    height: auto;
+    border-bottom: 4px solid white;
+}
+
+.social {
+    width: 10%;
+    height: 10%;
+}
+
+/* -- TABLET MEDIA QUERIES -- */
+@media(max-width: 767px) {
+
+.content, .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social {
+    width: 20%;
+    height: 20%;
+}
+.pure-img {
+    border-bottom: 3px solid white;
+}
+
+/* -- PHONE MEDIA QUERIES -- */
+@media (max-width: 580px) {
+
+    a.pure-button {
+        width: 100%;
+        font-size: 0.93em;
+    }
+
+}
